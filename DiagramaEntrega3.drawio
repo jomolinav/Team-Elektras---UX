@@ -1,0 +1,289 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Página-1" id="9AUvOVxrmC3H6ZGVDKA2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-1" value="Los sueños de Eva" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-2" target="RaPuqHW1vkt0LaywGv_W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-2" value="Eva es una estudiante de medicina, trabaja en una librería y sufre de narcolepsia." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="285" y="110" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-3" target="RaPuqHW1vkt0LaywGv_W-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-3" value="Eva se encuentra en clase de fisiología y tiene un episodio de narcolepsia." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-5" target="9qCX7JZb5Pephs1CQueu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="510" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-5" target="9qCX7JZb5Pephs1CQueu-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-5" target="RaPuqHW1vkt0LaywGv_W-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-5" value="¿Qué hace respecto al ataque?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="470" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-9" value="Seguir asistiendo&lt;div&gt;a clase&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-14" value="Hablar con su&lt;div&gt;amiga Paula&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="470" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-15" target="RaPuqHW1vkt0LaywGv_W-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-15" value="Eva pide cita exprés en la EPS, implementa siestas programadas y sufre un segundo episodio de somnolencia." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="650" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-17" value="Gestionar cita exprés&lt;div&gt;en la EPS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="580" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9qCX7JZb5Pephs1CQueu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="841.5" as="targetPoint" />
+            <mxPoint x="172.5" y="842.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-18" target="9qCX7JZb5Pephs1CQueu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-18" target="RaPuqHW1vkt0LaywGv_W-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-18" value="¿Qué hacer tras haber tenido&amp;nbsp;&lt;div&gt;un segundo episodio?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="795" width="255" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-22" value="Contarle a Paula y Martín" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="910" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-25" value="Ignorar lo ocurrido&lt;div&gt;y seguir&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="802.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-26" target="RaPuqHW1vkt0LaywGv_W-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-26" value="Eva confiesa a Paula y Martín lo ocurrido. Empieza a investigar alternativas naturales. Prueba infusiones herbales, pero un día no despierta a tiempo y falta al trabajo." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="970" width="445" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-28" value="Llamar de inmediato a la EPS&amp;nbsp;&lt;div&gt;para intentar adelantar la cita&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="806.25" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-29" target="9qCX7JZb5Pephs1CQueu-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="22.5" y="1117" as="targetPoint" />
+            <mxPoint x="700" y="1117" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-29" target="9qCX7JZb5Pephs1CQueu-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-29" target="RaPuqHW1vkt0LaywGv_W-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-29" value="¿Qué aspecto de su vida prioriza?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="1078" width="275" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-35" target="RaPuqHW1vkt0LaywGv_W-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-35" value="Eva decide dejar la terapia porque se siente mejor con la medicación. Al principio funciona, pero los síntomas reaparecen lentamente. Nadie nota su recaída." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="1240" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-37" value="Renunciar al trabajo y aceptar&lt;div&gt;apoyo familiar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="1078" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-38" value="Continuar con el trabajo,&lt;div&gt;pero cancelar materias&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1078" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-39" value="Abandonar las sesiones psicológicas&amp;nbsp;&lt;div&gt;para enfocarse solo en el medicamento&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1180" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-40" target="9qCX7JZb5Pephs1CQueu-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-40" target="RaPuqHW1vkt0LaywGv_W-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-40" value="¿Cómo afronta la recaída?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="1415" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-44" value="Retomar la terapia por su cuenta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="1428" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-46" target="RaPuqHW1vkt0LaywGv_W-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-46" value="Eva se apoya en foros de internet. Prueba suplementos recomendados por extraños. Colapsa de nuevo en el hospital. Es llamada al comité académico para evaluación" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="1590" width="175" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-48" value="Buscar apoyo en foros en línea" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1520" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-49" target="RaPuqHW1vkt0LaywGv_W-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1842.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-57" target="RaPuqHW1vkt0LaywGv_W-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1842.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-49" value="¿Confesar u ocultar la verdad al comité?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="1802.5" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-54" value="Decir la verdad" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1820" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-60" value="Eva no está sola, descubre el valor del cuidado cotidiano y del acompañamiento mutuo." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="431.25" width="157.5" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-61" value="Eva recupera conexión con su familia. Se siente más en paz y comienza a escribir un nuevo ciclo con un ritmo más sostenible" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="417.5" width="185" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-62" value="Eva recupera el control de su vida y se siente con esperanza, comienza a recuperar su estabilidad." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="767.5" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-63" value="&amp;nbsp;El comité académico la suspende de inmediato. De vuelta en casa, vive en aislamiento, deprimida y&amp;nbsp;apenas inicia su tratamiento al borde del abismo." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="758" width="168.5" height="168.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-65" value="La salud de Eva tiene una significativa mejoría, sueña sin miedo. Reconecta con sus padres y encuentra un propósito en lo cotidiano." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="-661.5" y="1028" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-66" value="La salud de Eva mantiene estabilidad sin colapsos, cuenta con el apoyo de su familia y siente que avanza sin destruirse." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1040" width="156" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-68" value="Eva no logra avanzar académicamente pero gana madurez emocional, luego vuelve con más claridad y estabilidad a su carrera." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="-268.75" y="1763.75" width="157.5" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-69" value="Eva miente al comité. Aunque&amp;nbsp;&lt;div&gt;sigue en la carrera, los episodios empeoran. Colapsa frente a un paciente, es suspendida y pierde su beca. Años después cambia de carrera&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1743.75" width="197.5" height="197.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-3" target="9qCX7JZb5Pephs1CQueu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-3" value="Eva finge que todo está bajo control. Se somete a una rutina agotadora de estudio, modafinilo y siestas breves" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="475" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-5" target="9qCX7JZb5Pephs1CQueu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-5" value=" Dos semanas después, colapsa durante una práctica en urgencias." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="475" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-8" target="9qCX7JZb5Pephs1CQueu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-8" value="Eva es suspendida, pero puede reingresar el siguiente semestre.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="475" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-10" target="RaPuqHW1vkt0LaywGv_W-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-10" value="Su salud m&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ejora al volver a casa y someterse a un tratamiento completo&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="475" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-13" target="9qCX7JZb5Pephs1CQueu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-13" value="Paula ayuda a Eva a re-organizar su vida con horarios, rutina y apoyo." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="480" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-14" target="RaPuqHW1vkt0LaywGv_W-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-14" value="Se estabiliza los síntomas de Eva, aunque sigue esperando tratamiento especializado" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="475" width="248.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-17" target="9qCX7JZb5Pephs1CQueu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-17" value="Eva decide que no puede perder más tiempo. Ignora el episodio y sigue en rotaciones." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-111.25" y="806.25" width="210" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-19" target="RaPuqHW1vkt0LaywGv_W-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-19" value="Eva sufre un colapso grave en una intubación y se escala la situación al comité." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="801" width="180" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-22" target="9qCX7JZb5Pephs1CQueu-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-22" value="Eva insiste con la EPS y logra una cita inmediata. Recibe diagnóstico y tratamiento especializado.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="693.75" y="804.1899999999999" width="210" height="76.62" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-23" target="RaPuqHW1vkt0LaywGv_W-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-23" value="Eva sigue asistiendo a sus clases, su salud mejora rápidamente con fármacos y rutina de higiene del sueño." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="801" width="198.75" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-26" target="9qCX7JZb5Pephs1CQueu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-26" value="Eva se va con su familia. Renuncia a todo temporalmente y construye una rutina de sanación: paseos, descanso, lectura y jardinería." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-152.5" y="1082.5" width="200" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-27" target="RaPuqHW1vkt0LaywGv_W-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-27" value="Eva pone en pausa su carrera, pero se prepara para volver con más calma." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1084" width="180" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-33" target="9qCX7JZb5Pephs1CQueu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-33" value="Eva reorganiza su semestre: cancela materias, ajusta horarios laborales y prioriza su salud. Su jefe y su familia la apoyan." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1079.5" width="180" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-34" target="RaPuqHW1vkt0LaywGv_W-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-34" value="Eva puede&amp;nbsp;encontrar un equilibrio entre su trabajo, las prácticas y descansar." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="1088" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-37" target="9qCX7JZb5Pephs1CQueu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-37" value="Eva paga una psicóloga particular. Aprende a calmar sus crisis con técnicas de respiración y compasión." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1417.5" width="157.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9qCX7JZb5Pephs1CQueu-38" target="RaPuqHW1vkt0LaywGv_W-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-38" value="Eva logra asistir como oyente a clases y recibe elogios por su madurez." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qCX7JZb5Pephs1CQueu-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaPuqHW1vkt0LaywGv_W-49" target="RaPuqHW1vkt0LaywGv_W-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1843" as="targetPoint" />
+            <mxPoint x="492" y="1843" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaPuqHW1vkt0LaywGv_W-57" value="Mentir y seguir fingiendo estabilidad" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1820" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
