@@ -1,5 +1,5 @@
 :: StoryTitle
-Los sueños de Eva 
+Los sueños de Eva
 
 
 :: StoryData
@@ -14,7 +14,7 @@ Los sueños de Eva
 
 :: 1. El inicio {"position":"1475,375","size":"200,200"}
 =|=
-<img src="img2.png" width="570">
+<img src="img2.png" width="500">
  =|=
  
  
@@ -31,7 +31,7 @@ Eva se encuentra en clase de fisiología y tiene un episodio de narcolepsia.
 
 :: 1.A Seguir asistiendo a clases {"position":"1875,375","size":"100,100"}
 =|=
-<img src="img3.png" width="570">
+<img src="img3.png" width="500">
 =|=
 
 
@@ -40,12 +40,9 @@ Eva se encuentra en clase de fisiología y tiene un episodio de narcolepsia.
  [[Continuar...|1.A.1 Preocupación del círculo]]
 
 
-
-
-
 :: 1.A.1 Preocupación del círculo {"position":"2100,300","size":"100,100"}
 =|=
-<img src="img4.png" height="700">
+<img src="img4.png" height="500">
 
 =|=
 
@@ -58,7 +55,7 @@ Los amigos de Eva llaman su atención, están preocupados de su propia negligenc
 
 :: 1.A.2 Desfallecimiento en urgencias {"position":"2250,450","size":"100,100"}
 =|=
- <img src="img5.png" width="570">
+ <img src="img5.png" width="500">
  
 =|=
 
@@ -70,9 +67,8 @@ Eva continúa ignorando su situación, cuando está en una clase práctica en ur
 
 
 :: 1.A.4 La esperanza del autocuidado {"position":"2350,175","size":"100,100"}
-
 =|=
- <img src="img6.png" width="570">
+ <img src="img6.png" width="500">
  
  =|=
 Una de las profesoras de Eva le ofrece una suspensión temporal de prácticas y seguimiento médico, para que así pueda continuar con más fuerzas el próximo semestre. 
@@ -88,7 +84,7 @@ Un tiempo después, armada de libreta, y con un semblante de descanso, regresa a
 
 :: 1.B CitaEPS {"position":"1525,650","size":"100,100"}
 =|=
- <img src="img12.png" width="570">
+ <img src="img12.png" width="500">
  =|=
 Eva toma una cita en su EPS, pero esta cita se demora y tiene un nuevo episodio de narcolepsia, con pesadillas esta vez.
 
@@ -99,9 +95,8 @@ Eva toma una cita en su EPS, pero esta cita se demora y tiene un nuevo episodio 
 
 
 :: 1.B.1 CitaPrioritaria {"position":"1525,825","size":"100,100"}
-
 =|=
- <img src="img14.png" width="570">
+ <img src="img14.png" width="500">
  
  =|=
 Eva llama a su EPS, y, debido a una cancelación de otro paciente, consigue una cita para los próximos días.
@@ -114,18 +109,17 @@ En la cita, el médico ordena una serie de exámenes, luego de realizarlos, se d
 
 
 :: 1.C ContarleAmigos {"position":"1200,350","size":"100,100"}
-
 =|=
- <img src="img7.png" width="570">
+ <img src="img7.png" width="500">
 =|=
 Eva recibe apoyo emocional por parte de sus amigos, aunque no son consejos profesionales, logran darle esperanza.
 
-[[Continuar...|1.C.1 Una ayuda visual]] 
+[[Continuar...|1.C.1 Una ayuda visual]]
 
 
 :: 1.C.1 Una ayuda visual {"position":"1025,275","size":"100,100"}
 =|=
- <img src="img8.png" width="570">
+ <img src="img8.png" width="500">
 =|=
 Eva, en conjunto a sus amigos, deciden hacer un tablero con los símbolos de alarma, para así evitar olvidar la importancia de la situación.
 
@@ -134,7 +128,7 @@ Eva, en conjunto a sus amigos, deciden hacer un tablero con los símbolos de ala
 
 :: 1.C.2 Tranquilidad momentánea {"position":"975,475","size":"100,100"}
 =|=
- <img src="img9.png" width="570">
+ <img src="img9.png" width="500">
 =|=
 Eva logra mantenerse al margen de la enfermedad, es cumplida con lo propuesto junto a sus amigos y, por lo pronto, todo parece estar bien. 
 
@@ -143,7 +137,7 @@ Eva logra mantenerse al margen de la enfermedad, es cumplida con lo propuesto ju
 
 :: 1.C.3 La impotencia {"position":"875,625","size":"100,100"}
 =|=
- <img src="img10.png" width="570">
+ <img src="img10.png" width="500">
  =|=
 Eva empieza a despertarse en medio de la noche, su condición está regresando con fuerza. 
 Su amiga intenta ayudarla, pero los remedios caseros no funcionan, cuando intentan solicitar una cita de neurología, encuentran que la más próxima es hasta dentro de 6 meses. 
@@ -153,7 +147,7 @@ Su amiga intenta ayudarla, pero los remedios caseros no funcionan, cuando intent
 
 :: 1.C.4 Una pequeña luz al final del túnel {"position":"925,125","size":"100,100"}
 =|=
- <img src="img11.png" width="570">
+ <img src="img11.png" width="500">
  =|=
 En vista de la falta de disponibilidad médica para hablar sobre su situación, la decana de su universidad le permite tener flexibilidad sobre sus prácticas, evitando así que la carga sea tan extrema.
 
@@ -165,9 +159,8 @@ Este cambio logra en ella un cambio genuino, aunque no todo está bien, por lo p
 
 
 :: 2.A Dejarlo todo pasar {"position":"1900,575","size":"100,100"}
-
 =|=
- <img src="img13.png" width="570">
+ <img src="img13.png" width="500">
 =|=
 Las microsiestas, aunque son la única forma en que su cuerpo se mantiene en pie, empiezan a conflictuar su vida, no sólo personal, sino también académica.
 
@@ -175,9 +168,8 @@ Las microsiestas, aunque son la única forma en que su cuerpo se mantiene en pie
 
 
 :: 2.A Renuncia Y Apoyo familiar {"position":"1075,875","size":"100,100"}
-
 =|=
- <img src="img15.png" width="570">
+ <img src="img15.png" width="500">
  =|=
 Con tristeza, Eva pasa su carta de renuncia a su empleador, le explica lo complicado de su situación y los motivos, él acepta, con cariño.
 
@@ -193,7 +185,7 @@ Unos meses más tarde, en otra revisión con su médica, le informan que sus des
 
 :: 2.B Pesadillas {"position":"1750,900","size":"100,100"}
 =|=
- <img src="img16.png" width="570">
+ <img src="img16.png" width="500">
  =|=
 Eva empieza a tener extrañas pesadillas
 
@@ -202,7 +194,7 @@ Eva empieza a tener extrañas pesadillas
 
 :: 2.C Final agridculce {"position":"1175,1050","size":"100,100"}
 =|=
-<img src="img27.png" width="570">
+<img src="img27.png" width="500">
 =|=
 Eva no logra avanzar académicamente, aunque no es lo que quiere, cancela un par de materias, haciendo que tenga un gran retraso en su avance académico.
 
@@ -215,7 +207,7 @@ Sin embargo, logra ganar mucha madurez emocional; comprende que no puede poner p
 
 :: Ashwagandha {"position":"1750,1350","size":"100,100"}
 =|=
-<img src="img24.png" width="570">
+<img src="img24.png" width="500">
 
 =|=
 Le recomiendan tomar una dosis de Ashwagandha; el evento sale mal y termina por desmayarse en mitad de la universidad.
@@ -225,7 +217,7 @@ Le recomiendan tomar una dosis de Ashwagandha; el evento sale mal y termina por 
 
 :: CargaEmocional {"position":"2050,1025","size":"100,100"}
 =|=
-<img src="img19.png" width="570">
+<img src="img19.png" width="500">
 
 =|=
 
@@ -244,7 +236,7 @@ Contacta a su padre con desesperación
 
 :: DejarTerapia {"position":"2050,1150","size":"100,100"}
 =|=
-<img src="img20.png" width="570">
+<img src="img20.png" width="500">
 =|=
 ¿Volver a terapia?
 * [[Sí|RetomarTerapia]]
@@ -253,7 +245,7 @@ Contacta a su padre con desesperación
 
 :: Final3 {"position":"2325,825","size":"100,100"}
 =|=
-<img src="img22.png" width="570">
+<img src="img22.png" width="500">
 =|=
 Aunque le cuesta muchísimo, eva logra encontrar un gran equilibrio en su vida, logrando mantener sus estudios y su trabajo, y claramente no dejando de lado lo importante que es lidiar con su condición.
 Sus amigos y su familia son partes claves de este gran logro. 
@@ -261,13 +253,11 @@ Sus amigos y su familia son partes claves de este gran logro.
 "Siento que pude avanzar sin huir de sí misma."
 
   [[Tomar una decisión diferente|DejarTerapia]]
- 
-
 
 
 :: Final4 {"position":"1500,1100","size":"100,100"}
 =|=
-<img src="img26.png" width="570">
+<img src="img26.png" width="500">
 =|=
 Eva es suspendida indefinidamente, pierde la beca y abandona su carrera, se aísla completamente, tanto personal como emocionalmente, y aunque afortunadamente no muere, tarda mucho en volverse a poner en pie. 
 
@@ -280,7 +270,7 @@ Eva es suspendida indefinidamente, pierde la beca y abandona su carrera, se aís
 
 :: Interrogatorio {"position":"1475,1300","size":"100,100"}
 =|=
-<img src="img25.png" width="570">
+<img src="img25.png" width="500">
 
 =|=
 El evento es conocido por el comité de bienestar y la interrogan sobre lo ocurrido.
@@ -290,9 +280,7 @@ El evento es conocido por el comité de bienestar y la interrogan sobre lo ocurr
 * [[No|Final4]]
 
 
-
 :: Introducción {"position":"1525,100","size":"100,100"}
-
 Bienvenido a la historia de Eva.
 Tendrás que elegir qué decisiones tomará nuestra protagonista en su complicada vida para poder asegurar que tenga el mejor futuro posible.
 
@@ -307,7 +295,7 @@ En caso de tener alguna discapacidad motriz, puede usar los botones de indentaci
 
 :: NoVolverTerapia {"position":"1775,1175","size":"100,100"}
 =|=
-<img src="img23.png" width="570">
+<img src="img23.png" width="500">
 =|=
 
 No vuelve a terapia, pero busca grupos de apoyo en línea.
@@ -315,10 +303,9 @@ No vuelve a terapia, pero busca grupos de apoyo en línea.
 [[Continuar|Ashwagandha]]
 
 
-
 :: RetomarTerapia {"position":"2350,1150","size":"100,100"}
 =|=
-<img src="img21.png" width="570">
+<img src="img21.png" width="500">
 =|=
 Eva retoma la terapia de forma particular.
 
@@ -327,7 +314,7 @@ Eva retoma la terapia de forma particular.
 
 :: Volver a casa de los padres {"position":"2075,875","size":"100,100"}
 =|=
-<img src="img18.png" width="570">
+<img src="img18.png" width="500">
 =|=
 Eva vuelve a casa de sus padres por una temporada
 
@@ -335,9 +322,8 @@ Eva vuelve a casa de sus padres por una temporada
 
 
 :: ¿Quién es Eva? {"position":"1525,225","size":"100,100"}
-
 =|=
-<img src="img1.png" width="570">
+<img src="img1.png" width="500">
 
 
 =|=
