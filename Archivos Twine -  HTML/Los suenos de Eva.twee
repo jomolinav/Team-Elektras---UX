@@ -1,0 +1,153 @@
+:: StoryTitle
+Los sueños de Eva 
+
+
+:: StoryData
+{
+  "ifid": "92D22196-1A5C-4FC9-85A6-026BDCB69029",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "¿Quién es Eva?",
+  "zoom": 1
+}
+
+
+:: Ashwagandha {"position":"650,1250","size":"100,100"}
+
+Le recomiendan tomar una dosis de Ashwagandha; el evento sale mal y termina por desmayarse.
+
+[[Continuar|Interrogatorio]]
+
+
+:: CargaEmocional {"position":"975,825","size":"100,100"}
+La carga emocional se vuelve insostenible
+[[Continúa...|DejarTerapia]]
+
+
+:: CitaEPS {"position":"425,525","size":"100,100"}
+Eva toma una cita en su EPS, pero esta cita se demora y tiene un nuevo episodio de narcolepsia, con pesadillas esta vez.
+
+¿Qué hacer respecto a los ataques recurrentes?
+* [[Contarle a sus amigos y no buscar ayuda psicológica|RutaDefinir3]]
+* [[Ignorarlo|RutaDefinir4]]
+* [[Insistir en la EPS|CitaPrioritaria]]
+
+
+:: CitaPrioritaria {"position":"425,725","size":"100,100"}
+¿A qué aspecto de su vida dará prioridad?
+* [[Renunciar a su trabajo como librera para enfocarse en su carrera y sus citas|Final1]]
+* [[Cancelar un par de materias para quedarse en el trabajo y continuar asistiendo a las citas|Final2]]
+* [[Dejar de ir a terapia y concentrarse en su trabajo y estudios|Pesadillas]]
+
+
+:: Contactar padre {"position":"800,700","size":"100,100"}
+Contacta a su padre con desesperación 
+
+[[Continúa...|Volver a casa de los padres]]
+
+
+:: ContarleAmigos {"position":"175,350","size":"100,100"}
+Eva recibe apoyo emocional por parte de sus amigos, aunque no son consejos profesionales, logran darle esperanza.
+
+[[Continuar...|pedirConsejo]] 
+
+
+:: DejarTerapia {"position":"800,925","size":"100,100"}
+
+
+¿Volver a terapia?
+* [[Sí|RetomarTerapia]]
+* [[No|NoVolverTerapia]]
+
+
+:: El inicio {"position":"375,275","size":"200,200"}
+Eva se encuentra en clase de fisiología y tiene un episodio de narcolepsia.
+
+¿Qué hacer respecto al ataque?
+* [[Contarle a sus amigos y no buscar ayuda psicológica|ContarleAmigos]]
+* [[Ignorar el ataque|RutaDefinir2]]
+* [[Buscar ayuda profesional|CitaEPS]]
+
+
+:: Final1 {"position":"150,725","size":"100,100"}
+Ruta a definir...
+
+
+:: Final2 {"position":"75,1175","size":"100,100"}
+Eva no logra avanzar académicamente pero gana madurez emocional; luego vuelve con más claridad a su carrera.
+
+
+
+:: Final3 {"position":"900,1275","size":"100,100"}
+
+Eva encuentra equilibrio en su vida, logrando mantener sus estudios y su trabajo.
+
+
+:: Final4 {"position":"350,1350","size":"100,100"}
+
+Eva es suspendida indefinidamente, pierde la beca y abandona su carrera.
+
+
+:: Interrogatorio {"position":"375,1200","size":"100,100"}
+
+El evento es conocido por el comité de bienestar y la interrogan sobre lo ocurrido.
+
+¿Decir la verdad?
+* [[Sí|Final2]]
+* [[No|Final4]]
+
+
+
+:: NoVolverTerapia {"position":"625,1050","size":"100,100"}
+
+No vuelve a terapia, pero busca grupos de apoyo en línea.
+
+[[Continuar|Ashwagandha]]
+
+
+
+:: Pesadillas {"position":"650,725","size":"100,100"}
+Eva empieza a tener extrañas pesadillas
+
+[[Continúa...|Contactar padre]]
+
+
+:: RetomarTerapia {"position":"875,1075","size":"100,100"}
+Eva retoma la terapia de forma particular.
+
+[[Continuar|Final3]]
+
+
+:: RutaDefinir2 {"position":"700,350","size":"100,100"}
+Ruta a definir...
+
+
+:: RutaDefinir3 {"position":"225,525","size":"100,100"}
+
+Eva recibe apoyo emocional por parte de sus amigos, aunque no son consejos profesionales, logran darle esperanza 
+
+[[Continuar...|pedirConsejo2]] 
+
+
+:: RutaDefinir4 {"position":"700,525","size":"100,100"}
+
+
+
+:: Volver a casa de los padres {"position":"975,700","size":"100,100"}
+Eva vuelve a casa de sus padres por una temporada
+
+[[Continúa...|CargaEmocional]]
+
+
+:: pedirConsejo {"position":"25,350","size":"100,100"}
+Ruta a definir...
+
+
+:: pedirConsejo2 {"position":"50,550","size":"100,100"}
+Ruta a definir...
+
+
+:: ¿Quién es Eva? {"position":"400,125","size":"100,100"}
+Eva tiene 23 años, estudia medicina, trabaja ocasionalmente en una librería y sufre de narcolepsia.
+
+ [[Continuar...|El inicio]]
