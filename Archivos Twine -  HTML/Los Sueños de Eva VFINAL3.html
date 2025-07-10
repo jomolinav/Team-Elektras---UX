@@ -9,231 +9,721 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Los sueños de Eva.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Los sueños de Eva" startnode="24" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="92D22196-1A5C-4FC9-85A6-026BDCB69029" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+<tw-storydata name="Los sueños de Eva" startnode="24" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="92D22196-1A5C-4FC9-85A6-026BDCB69029" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* Contenedor principal de la historia y estilos globales */
+tw-story {
   background-image: url("https://raw.githubusercontent.com/jomolinav/Team-Elektras---UX/refs/heads/main/Archivos%20Twine%20-%20%20HTML/bc.png");
   background-size: cover;
-   font-family: "Arial", "Helvetica", sans-serif;
+  font-family: "Garamond";
+  padding: 2em;
   
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="1. El inicio" tags="" position="1475,375" size="200,200">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img2.png?raw=true&quot; width=&quot;500&quot;&gt;
- =|=
+  
+}
+
+tw-story::before {
+  content: "Los sueños de eva";
+  display: block;
+  text-align: center;
+  font-family: 'Garamond';
+  font-size: 2em;
+  color: #f9f1e8;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+
+  /* NUEVAS PROPIEDADES */
+  background-color: rgba(0, 0, 0, 0.5); /* negro al 50% de opacidad */
+  padding: 0.5em 1em;                  /* espacio alrededor del texto 
+  border-radius: 0.5em;                opcionales */
+  margin-bottom: 20px;
+}
+
+.botones{
+    background-color: Tomato;
+      color: LavenderBlush;
+      font-size: 16px;
+      padding: 10px 24px;
+      transition-duration: 0.4s;
+      float: left;
+      border: 2px solid LavenderBlush;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="1. El inicio" tags="" position="1475,375" size="200,200">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 100%;
+&quot;&gt;
+
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img2.png?raw=true&quot;
+       width=&quot;490&quot; alt=&quot;Eva en clase de fisiología&quot;&gt;
+
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+  &quot;&gt;
+    &lt;p&gt;Eva se encuentra en clase de fisiología y tiene un episodio de narcolepsia.
+    ¿Qué hacer respecto al ataque?&lt;/p&gt;
+
+      (button: &quot;=X=&quot;)[[Contarle a sus amigos y no buscar ayuda psicológica|1.C ContarleAmigos]]&lt;/p&gt;
+     (button: &quot;=X=&quot;)[[Ignorar el ataque|1.A Seguir asistiendo a clases]]&lt;/p&gt;
+      (button: &quot;=X=&quot;)[[Buscar ayuda profesional|1.B CitaEPS]]&lt;/p&gt;
+      
+      
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="2" name="1.A Seguir asistiendo a clases" tags="" position="1875,375" size="100,100">&lt;div style=&quot;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img3.png?raw=true&quot;
+       width=&quot;300&quot; alt=&quot;Eva durmiendo en clase&quot;&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    
+    border-radius: 0.5em;
+    max-width: calc(80% - 520px);
+  &quot;&gt;
+    &lt;p&gt;Eva sigue yendo a sus clases sin preocuparse por su salud mental, la evita a toda costa y no se lo cuenta ni a su familia ni a sus amigos, en las clases se le ve preocupada y consternada, la falta de sueño la está afectando.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.A.1 Preocupación del círculo]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="3" name="1.A.1 Preocupación del círculo" tags="" position="2100,300" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img4.png?raw=true&quot;
+       height=&quot;420&quot; alt=&quot;Amigos de Eva preocupados&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+  &quot;&gt;
+    &lt;p&gt;Los amigos de Eva están muy preocupados por ella, llaman su atención y le hacen saber que están ahí para ella, Eva está muy agotada y les contesta de mala gana, su condición están empezando a afectar sus relaciones interpersonales.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.A.2 Desfallecimiento en urgencias]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="4" name="1.A.2 Desfallecimiento en urgencias" tags="" position="2250,450" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img5.png?raw=true&quot;
+       width=&quot;400&quot; alt=&quot;Eva desmayándose en urgencias&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(75% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva continúa ignorando su situación, duerme poco, toma muchas bebidas energizantes y cada vez está teniendo más microsueños.
+    La gota que derrama el vaso ocurre en una una clase práctica en su rotación por urgencias, se desmaya frente a sus compañeros y profesores. Luego de pasar por el susto inicial, los directivos le ordenan que tome urgente reposo.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.A.4 La esperanza del autocuidado]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="5" name="1.A.4 La esperanza del autocuidado" tags="" position="2350,175" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img6.png?raw=true&quot;
+       width=&quot;650&quot; alt=&quot;Profesora ofreciendo suspensión&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(130% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Una de las profesoras de Eva le ofrece una suspensión temporal de prácticas y seguimiento médico, para que así pueda continuar con más fuerzas el próximo semestre.&lt;/p&gt;
+    &lt;p&gt;Viéndose en una situación tan complicada, Eva decide volver a su casa, mientras se apoya con terapias de sueño y siestas programadas; esto, en conjunto al amor de sus padres, consigue que sus ciclos de descansos logren estabilizarse mucho más... Un tiempo después, armada de libreta, y con un semblante de descanso, regresa a su universidad.&lt;/p&gt;
+    &lt;p&gt;“No llegué a la meta corriendo; llegué cuando dejé de huir de mí misma. Pr&amp;oacute;ximo paso: volver al aula con el cuerpo como aliado, no como obstáculo.”&lt;/p&gt;
+        &lt;p&gt;//Aquí termina tu historia con Eva, si quieres explorar otras formas de afrontar su condición, puedes intentarlo://&lt;/p&gt;
+    
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Tomar una decisión diferente|1. El inicio]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="6" name="1.B CitaEPS" tags="" position="1525,650" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+  
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img12.png?raw=true&quot;
+       width=&quot;550&quot; alt=&quot;Eva en cita de EPS interrumpida por episodio&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    max-width: calc(90% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva toma una cita en su EPS, pero esta cita se demora y tiene un nuevo episodio de narcolepsia, con pesadillas esta vez.&lt;/p&gt;
+    &lt;p&gt;¿Qué hacer respecto a los ataques recurrentes?&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Contarle a sus amigos y no buscar ayuda psicológica|1.C ContarleAmigos]]&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Ignorarlo|2.A Dejarlo todo pasar]]&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Insistir en la EPS|1.B.1 CitaPrioritaria]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="7" name="1.B.1 CitaPrioritaria" tags="" position="1525,825" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 0.3em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img14.png?raw=true&quot;
+       width=&quot;600&quot; alt=&quot;Eva consigue cita en la EPS&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(120% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva llama a su EPS, y, debido a una cancelación de otro paciente, consigue una cita para los próximos días. En la cita, el médico ordena una serie de exámenes; luego de realizarlos, se determina que se trata de un desbalance químico en su cerebro, pero, para arreglarlo, también deberá tomar una importante decisión sobre qué parte de su vida debe tener prioridad.&lt;/p&gt;
+    &lt;p&gt;¿A qué aspecto de su vida dará prioridad?&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Renunciar a su trabajo como librera para enfocarse en su carrera y sus citas|2.A Renuncia Y Apoyo familiar]]&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Cancelar un par de materias para quedarse en el trabajo y continuar asistiendo a las citas|2.C Final agridulce]]&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Dejar de ir a terapia y concentrarse en su trabajo y estudios|2.B Pesadillas]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="8" name="1.C ContarleAmigos" tags="" position="1225,400" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img7.png?raw=true&quot;
+       width=&quot;350&quot; alt=&quot;Amigos de Eva brindando apoyo emocional&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(75% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva, luego de sincerarse con sus amigas, aunque apenada, se siente más tranquila, ninguna puede darle consejos profesionales, tan sólo saber que están ahí para ella la reconforta; Juntas, deciden hacer una lluvia de ideas para tener la situación de Eva en control mientras pueden hacer algo más drástico.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.C.1 Una ayuda visual]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="9" name="1.C.1 Una ayuda visual" tags="" position="1175,600" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img8.png?raw=true&quot;
+       width=&quot;400&quot; alt=&quot;Tablero con símbolos de alarma&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(75% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva, en conjunto a sus amigas, decide hacer un tablero con los símbolos de alarma, para así evitar olvidar la importancia de la situación, van marcando las tareas importantes, como no tomar cafeína o evitar las siestas durante el día, como un recordartorio visual de lo que Eva debe hacer para mejorar.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.C.2 Tranquilidad momentánea]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="10" name="1.C.2 Tranquilidad momentánea" tags="" position="975,475" size="100,100">&lt;div style=&quot;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img9.png?raw=true&quot;
+       width=&quot;300&quot; alt=&quot;Eva manteniéndose al margen&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(70% - 520px);
  
+  &quot;&gt;
+    &lt;p&gt;Eva logra mantenerse al margen de la enfermedad, es cumplida con lo propuesto junto a sus amigos y, por lo pronto, todo parece estar bien.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.C.3 La impotencia]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="11" name="1.C.3 La impotencia" tags="" position="875,625" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img10.png?raw=true&quot;
+       width=&quot;350&quot; alt=&quot;Despertar nocturno de Eva&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(80% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva empieza a despertarse en medio de la noche, su condición está regresando con fuerza. Su amiga intenta ayudarla, pero los remedios caseros no funcionan, cuando intentan solicitar una cita de neurología, encuentran que la más próxima es hasta dentro de 6 meses.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.C.4 Una pequeña luz al final del túnel]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="12" name="1.C.4 Una pequeña luz al final del túnel" tags="" position="925,125" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img11.png?raw=true&quot;
+       width=&quot;550&quot; alt=&quot;Decana concede flexibilidad a Eva&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(90% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;En vista de la falta de disponibilidad médica para hablar sobre su situación, la decana de su universidad le permite tener flexibilidad sobre sus prácticas, evitando así que la carga sea tan extrema.&lt;/p&gt;
+    &lt;p&gt;Este cambio logra en ella un cambio genuino, aunque no todo está bien; por lo pronto, logra mantenerse, y sus sueños son más tranquilos.&lt;/p&gt;
+    &lt;p&gt;“Siente que, por primera vez, los muros del túnel tienen ventanas”&lt;/p&gt;
+    
+    &lt;p&gt;//Aquí termina tu historia con Eva, si quieres explorar otras formas de afrontar su condición, puedes intentarlo://&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Tomar una decisión diferente|1. El inicio]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="13" name="2.A Dejarlo todo pasar" tags="" position="1900,575" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img13.png?raw=true&quot;
+       width=&quot;400&quot; alt=&quot;Eva teniendo microsiestas&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(70% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Las microsiestas, aunque son la única forma en que su cuerpo se mantiene en pie, empiezan a conflictuar su vida, no sólo personal, sino también académica.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar...|1.A.2 Desfallecimiento en urgencias]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="14" name="2.A Renuncia Y Apoyo familiar" tags="" position="1075,875" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img15.png?raw=true&quot;
+       width=&quot;650&quot; alt=&quot;Eva renuncia en el trabajo&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(110% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Con tristeza, Eva pasa su carta de renuncia a su empleador, le explica lo complicado de su situación y los motivos, él acepta, con cariño.&lt;/p&gt;
+    &lt;p&gt;Regresa a casa, no está segura de cuándo volverá a su carrera, pero por lo pronto, se siente a salvo. Unos meses más tarde, en otra revisión con su médica, le informan que sus despertares nocturnos se han reducido en casi la mitad, todo está mejorando, ya habrá tiempo para reconstruir su vida académica.&lt;/p&gt;
+    &lt;p&gt;“No llegué corriendo. Aprendí a caminar despierta.”&lt;/p&gt;
+        &lt;p&gt;//Aquí termina tu historia con Eva, si quieres explorar otras formas de afrontar su condición, puedes intentarlo://&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Tomar una decisión diferente|1.B.1 CitaPrioritaria]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="15" name="2.B Pesadillas" tags="" position="1750,900" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: CENTER;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img16.png?raw=true&quot;
+       width=&quot;350&quot; alt=&quot;Pesadillas de Eva&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(80% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva empieza a tener extrañas pesadillas, cada vez las siente más reales, la despiertan en la mitad de la noche, tiene sudores frios y no logra descansar, su situación cada vez se pone peor&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continúa...|Contactar padre]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="16" name="2.C Final agridulce" tags="" position="1175,1050" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img27.png?raw=true&quot;
+       width=&quot;500&quot; alt=&quot;Eva retrasa materias&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(90% - 520px);
+  &quot;&gt;
+    &lt;p&gt;Eva no logra avanzar académicamente, aunque no es lo que quiere, cancela un par de materias, haciendo que tenga un gran retraso en su avance académico.&lt;/p&gt;
+    &lt;p&gt;Sin embargo, logra ganar mucha madurez emocional; comprende que no puede poner por delante a cualquier cosa antes de que su salud mental.&lt;/p&gt;
+    &lt;p&gt;“Soy capaz de avanzar, paso a paso.”&lt;/p&gt;
+            &lt;p&gt;//Aquí termina tu historia con Eva, si quieres explorar otras formas de afrontar su condición, puedes intentarlo://&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Tomar una decisión diferente|Interrogatorio]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="17" name="Ashwagandha" tags="" position="1750,1350" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img24.png?raw=true&quot;
+       width=&quot;400&quot; alt=&quot;Eva desmayándose tras Ashwagandha&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(80% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;En uno de estos foros, le recomiendan tomar una dosis de Ashwagandha prometiendo que logrará calmarla y mantener su condición en orden; Sin embargo, Eva no comprende bien las instrucciones, toma la  el evento sale mal y termina por desmayarse en mitad de la universidad.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Continuar...|Interrogatorio]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="18" name="CargaEmocional" tags="" position="2050,1025" size="100,100">&lt;div style=&quot;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img19.png?raw=true&quot;
+       width=&quot;350&quot; alt=&quot;Carga emocional insostenible&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(80% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Lentamente, la carga emocional se vuelve insostenible, aunque sus padres cuidadn de Eva, y se encargan de que esté bien, el problema ahora debe ser tomado por manos expertas, es un punto de crisis extrema.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continúa...|DejarTerapia]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="19" name="Contactar padre" tags="" position="1900,875" size="100,100">&lt;div style=&quot;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img17.png?raw=true&quot;
+       width=&quot;450&quot; alt=&quot;Contacto con el padre&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(95% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;En vista de lo mal que lo está pasando, luego de tener otra terrible pesadilla, Eva decide contactar a su padre, desesperada, le explica su condición y lo que está pasando por su cabeza, su mano tiembla mientras sostiene el teléfono.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continúa...|Volver a casa de los padres]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="20" name="DejarTerapia" tags="" position="2050,1150" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img20.png?raw=true&quot;
+       width=&quot;350&quot; alt=&quot;¿Volver a terapia?&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva se enfrenta a un gran cuestionamiento:
+    ¿Debería empezar a ir a terapia?&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Sí|RetomarTerapia]]&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[No|NoVolverTerapia]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="21" name="Final3" tags="" position="2325,825" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img22.png?raw=true&quot;
+       width=&quot;600&quot; alt=&quot;Eva encuentra equilibrio&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(120% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Aunque le cuesta muchísimo, Eva logra encontrar un gran equilibrio en su vida, logrando mantener sus estudios y su trabajo, y claramente no dejando de lado lo importante que es lidiar con su condición. Sus amigos y su familia son partes claves de este gran logro.&lt;/p&gt;
+    &lt;p&gt;“Siento que pude avanzar sin huir de sí misma.”&lt;/p&gt;
+                &lt;p&gt;//Aquí termina tu historia con Eva, si quieres explorar otras formas de afrontar su condición, puedes intentarlo://&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Tomar una decisión diferente|DejarTerapia]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="22" name="Final4" tags="" position="1550,1075" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img26.png?raw=true&quot;
+       width=&quot;400&quot; alt=&quot;Eva suspendida indefinidamente&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva es suspendida indefinidamente, pierde la beca y abandona su carrera, se aísla completamente, tanto personal como emocionalmente, y aunque afortunadamente no muere, tarda mucho en volverse a poner en pie.&lt;/p&gt;
+    
+    &lt;p&gt;“Mi cuerpo me gritaba lo que mi mente no quería aceptar”.&lt;/p&gt;
+                &lt;p&gt;//Aquí termina tu historia con Eva, si quieres explorar otras formas de afrontar su condición, puedes intentarlo://&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Tomar una decisión diferente|Interrogatorio]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="23" name="Interrogatorio" tags="" position="1475,1300" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img25.png?raw=true&quot;
+       width=&quot;600&quot; alt=&quot;Interrogatorio por desmayo&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(90% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;El evento es conocido por toda la universidad, Eva no sólo se ve bajo el escrutinio público y los chismes de pasillo, sino que también se enfrenta a consecuencias académicas; El comité de ética y bienestar  por el comité de bienestar y la interrogan sobre lo ocurrido.&lt;/p&gt;
+    &lt;p&gt;¿Decir la verdad?&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Sí|2.C Final agridulce]]&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[No|Final4]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="24" name="Introducción" tags="" position="1525,100" size="100,100">&lt;div style=&quot;
+  border: 2px solid #ffffff;
+  padding: 1em;
+  justify-content: center;
+  border-radius: 0.5em;
+  max-width: 700px;
+  margin: 1em auto;
+  &quot;&gt;
+  &lt;p&gt;Bienvenido a la historia de Eva.&lt;br&gt;
+  Tendrás que elegir qué decisiones tomará nuestra protagonista en su complicada vida para poder asegurar que tenga el mejor futuro posible.&lt;/p&gt;
+  &lt;p&gt;En caso de tener alguna discapacidad o dificultad visual, active el narrador de su dispositivo.&lt;/p&gt;
+  &lt;p&gt;En caso de tener alguna discapacidad motriz, puede usar los botones de indentación para navegar entre opciones y enter para seleccionar una.&lt;/p&gt;
+  &lt;p&gt;¡Disfruta el juego!&lt;/p&gt;
+
+  &lt;p&gt;(button:) [[Continuar|¿Quién es Eva?]] &lt;/p&gt;
+&lt;/div&gt;
+
+
+</tw-passagedata><tw-passagedata pid="25" name="NoVolverTerapia" tags="" position="1775,1175" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img23.png?raw=true&quot;
+       width=&quot;450&quot; alt=&quot;Grupos de apoyo en línea&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva decide no empezar a tomar terapia, es dificil a acceder a citas por medio de su seguro y no quiere pedirle dinero a sus padres, así qué, buscando otra opción, busca grupos de apoyo en línea y se conecta con ellos.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continuar|Ashwagandha]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="26" name="RetomarTerapia" tags="" position="2350,1150" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img21.png?raw=true&quot;
+       width=&quot;450&quot; alt=&quot;Eva retoma la terapia&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(70% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Eva decide empezar a tomar terapia, debido a lo complicado que es conseguirla por medio de su seguro, sus padres acceden a pagar por las sesiones.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Continuar|Final3]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="27" name="Volver a casa de los padres" tags="" position="2075,875" size="100,100">&lt;div style=&quot;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 100%;
+&quot;&gt;
+  &lt;!-- Imagen a la izquierda --&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img18.png?raw=true&quot;
+       width=&quot;500&quot; alt=&quot;Eva vuelve a casa de sus padres&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+
+  &quot;&gt;
+    &lt;p&gt;Sus padres le piden que vuelva a casa, para evitar una mayor tragedia y para poder cuidarla, no importa que tenga que dejar su carrera por un periodo.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;X==&quot;)[[Continúa...|CargaEmocional]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="28" name="¿Quién es Eva?" tags="" position="1525,225" size="100,100">&lt;div style=&quot;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* alinea arriba la imagen y el texto */
+  gap: 0.5em;                /* espacio entre ambos */
+  max-width: 100%;         /* que use todo el ancho posible */
+&quot;&gt;
+  &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img1.png?raw=true&quot;
+       width=&quot;800&quot; alt=&quot;Eva llamando asustada&quot;&gt;
+
+  &lt;!-- Recuadro de texto empujado a la derecha --&gt;
+  &lt;div style=&quot;
+    border: 2px solid #ffffff;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    max-width: calc(100% - 520px);
+    margin-left: auto;
+  &quot;&gt;
+    &lt;p&gt;Eva es una chica carismática, se fue temporalmente de su casa para estudiar su carrera soñada: Medicina.
+    Ahora tiene 23 años, mantiene buenas relaciones con sus amigos y trabaja ocasionalmente en una librería. Lamentablemente, fue diagnosticada con narcolepsia hace un par de meses, pero el estrés académico está empeorando su condición.&lt;/p&gt;
+    &lt;p&gt;(button: &quot;=X=&quot;)[[Continuar...|1. El inicio]]&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
  
- 
- 
- 
-Eva se encuentra en clase de fisiología y tiene un episodio de narcolepsia.
 
-¿Qué hacer respecto al ataque?
-* [[Contarle a sus amigos y no buscar ayuda psicológica|1.C ContarleAmigos]]
-* [[Ignorar el ataque|1.A Seguir asistiendo a clases]]
-* [[Buscar ayuda profesional|1.B CitaEPS]]</tw-passagedata><tw-passagedata pid="2" name="1.A Seguir asistiendo a clases" tags="" position="1875,375" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img3.png?raw=true&quot; width=&quot;500&quot;&gt;
 
-=|=
-
-
-Eva sigue yendo a sus clases sin preocuparse por su salud mental, aunque lo intenta, le cuesta y se duerme en clase. 
- [[Continuar...|1.A.1 Preocupación del círculo]]</tw-passagedata><tw-passagedata pid="3" name="1.A.1 Preocupación del círculo" tags="" position="2100,300" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img4.png?raw=true&quot; height=&quot;500&quot;&gt;
-
-=|=
-
-
-
-
-Los amigos de Eva llaman su atención, están preocupados de su propia negligencia. 
- [[Continuar...|1.A.2 Desfallecimiento en urgencias]]</tw-passagedata><tw-passagedata pid="4" name="1.A.2 Desfallecimiento en urgencias" tags="" position="2250,450" size="100,100">=|=
- &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img5.png?raw=true&quot; width=&quot;500&quot;&gt;
- 
-=|=
-
-
-
-Eva continúa ignorando su situación, cuando está en una clase práctica en urgencias, se desmaya frente a sus compañeros y profesores, estos últimos le ordenan que tome urgente reposo. 
-
-* [[Continuar...|1.A.4 La esperanza del autocuidado]]</tw-passagedata><tw-passagedata pid="5" name="1.A.4 La esperanza del autocuidado" tags="" position="2350,175" size="100,100">=|=
- &lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img6.png?raw=true&quot; width=&quot;500&quot;&gt;
- 
- =|=
-Una de las profesoras de Eva le ofrece una suspensión temporal de prácticas y seguimiento médico, para que así pueda continuar con más fuerzas el próximo semestre. 
-
-Viéndose en una situación tan complicada, Eva decide volver a su casa, mientras se apoya con terapias de sueño y siestas programadas; esto, en conjunto al amor de sus padres, consigue que sus ciclos de descansos logren estabilizarse mucho más...
-Un tiempo después, armada de libreta, y con un semblante de descanso, regresa a su universidad.
-
-“No llegué a la meta corriendo; llegué cuando dejé de huir de mí misma.
- Próximo paso: volver al aula con el cuerpo como aliado, no como obstáculo.”
- 
- * [[Tomar una decisión diferente|1. El inicio]]</tw-passagedata><tw-passagedata pid="6" name="1.B CitaEPS" tags="" position="1525,650" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img12.png?raw=true&quot; width=&quot;500&quot;&gt;
- =|=
-Eva toma una cita en su EPS, pero esta cita se demora y tiene un nuevo episodio de narcolepsia, con pesadillas esta vez.
-
-¿Qué hacer respecto a los ataques recurrentes?
-* [[Contarle a sus amigos y no buscar ayuda psicológica|1.C ContarleAmigos]]
-* [[Ignorarlo|2.A Dejarlo todo pasar]]
-* [[Insistir en la EPS|1.B.1 CitaPrioritaria]]</tw-passagedata><tw-passagedata pid="7" name="1.B.1 CitaPrioritaria" tags="" position="1525,825" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img14.png?raw=true&quot; width=&quot;500&quot;&gt;
- 
- =|=
-Eva llama a su EPS, y, debido a una cancelación de otro paciente, consigue una cita para los próximos días.
-En la cita, el médico ordena una serie de exámenes, luego de realizarlos, se determina que se trata de un desbalance químico en su cerebro, pero, para arreglarlo, también deberá tomar una importante sobre qué parte de su vida debe tener prioridad. 
-
-¿A qué aspecto de su vida dará prioridad?
-* [[Renunciar a su trabajo como librera para enfocarse en su carrera y sus citas|2.A Renuncia Y Apoyo familiar]]
-* [[Cancelar un par de materias para quedarse en el trabajo y continuar asistiendo a las citas|2.C Final agridculce]]
-* [[Dejar de ir a terapia y concentrarse en su trabajo y estudios|2.B Pesadillas]]</tw-passagedata><tw-passagedata pid="8" name="1.C ContarleAmigos" tags="" position="1200,350" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img7.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva recibe apoyo emocional por parte de sus amigos, aunque no son consejos profesionales, logran darle esperanza.
-
-[[Continuar...|1.C.1 Una ayuda visual]]</tw-passagedata><tw-passagedata pid="9" name="1.C.1 Una ayuda visual" tags="" position="1025,275" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img8.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva, en conjunto a sus amigos, deciden hacer un tablero con los símbolos de alarma, para así evitar olvidar la importancia de la situación.
-
-[[Continuar...|1.C.2 Tranquilidad momentánea]]</tw-passagedata><tw-passagedata pid="10" name="1.C.2 Tranquilidad momentánea" tags="" position="975,475" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img9.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva logra mantenerse al margen de la enfermedad, es cumplida con lo propuesto junto a sus amigos y, por lo pronto, todo parece estar bien. 
-
-[[Continuar...|1.C.3 La impotencia]]</tw-passagedata><tw-passagedata pid="11" name="1.C.3 La impotencia" tags="" position="875,625" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img10.png?raw=true&quot; width=&quot;500&quot;&gt;
- =|=
-Eva empieza a despertarse en medio de la noche, su condición está regresando con fuerza. 
-Su amiga intenta ayudarla, pero los remedios caseros no funcionan, cuando intentan solicitar una cita de neurología, encuentran que la más próxima es hasta dentro de 6 meses. 
-
-[[Continuar...|1.C.4 Una pequeña luz al final del túnel]]</tw-passagedata><tw-passagedata pid="12" name="1.C.4 Una pequeña luz al final del túnel" tags="" position="925,125" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img11.png?raw=true&quot; width=&quot;500&quot;&gt;
- =|=
-En vista de la falta de disponibilidad médica para hablar sobre su situación, la decana de su universidad le permite tener flexibilidad sobre sus prácticas, evitando así que la carga sea tan extrema.
-
-Este cambio logra en ella un cambio genuino, aunque no todo está bien, por lo pronto, logra mantenerse, ahora los sueños son más tranquilos.
-
-&quot;Siente que, por primera vez, los muros del túnel tienen ventanas&quot;
-
- * [[Tomar una decisión diferente|1. El inicio]]</tw-passagedata><tw-passagedata pid="13" name="2.A Dejarlo todo pasar" tags="" position="1900,575" size="100,100">=|=
- &lt;img src=&quot;img13.png&quot; width=&quot;500&quot;&gt;
-=|=
-Las microsiestas, aunque son la única forma en que su cuerpo se mantiene en pie, empiezan a conflictuar su vida, no sólo personal, sino también académica.
-
-* [[Continuar...|1.A.2 Desfallecimiento en urgencias]]</tw-passagedata><tw-passagedata pid="14" name="2.A Renuncia Y Apoyo familiar" tags="" position="1075,875" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img15.png?raw=true&quot; width=&quot;500&quot;&gt;
- =|=
-Con tristeza, Eva pasa su carta de renuncia a su empleador, le explica lo complicado de su situación y los motivos, él acepta, con cariño.
-
-
-Regresa a casa, no está segura de cuándo volverá a su carrera, pero lo pronto, se siente a salvo.
-Unos meses más tarde, en otra revisión con su médica, le informan que sus despertares nocturnos se han reducido en casi la mitad, todo está mejorando, ya habrá tiempo para reconstruir su vida académica.
-
-“No llegué corriendo. Aprendí a caminar despierta.”
-
-
- * [[Tomar una decisión diferente|1.B.1 CitaPrioritaria]]</tw-passagedata><tw-passagedata pid="15" name="2.B Pesadillas" tags="" position="1750,900" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img16.png?raw=true&quot; width=&quot;500&quot;&gt;
- =|=
-Eva empieza a tener extrañas pesadillas
-
-[[Continúa...|Contactar padre]]</tw-passagedata><tw-passagedata pid="16" name="2.C Final agridculce" tags="" position="1175,1050" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img27.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva no logra avanzar académicamente, aunque no es lo que quiere, cancela un par de materias, haciendo que tenga un gran retraso en su avance académico.
-
-Sin embargo, logra ganar mucha madurez emocional; comprende que no puede poner por delante a cualquier cosa antes de que su salud mental.
-
-“Soy capaz de avanzar, paso a paso.”
-
- * [[Tomar una decisión diferente|Interrogatorio]]</tw-passagedata><tw-passagedata pid="17" name="Ashwagandha" tags="" position="1750,1350" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img24.png?raw=true&quot; width=&quot;500&quot;&gt;
-
-=|=
-Le recomiendan tomar una dosis de Ashwagandha; el evento sale mal y termina por desmayarse en mitad de la universidad.
-
-[[Continuar|Interrogatorio]]</tw-passagedata><tw-passagedata pid="18" name="CargaEmocional" tags="" position="2050,1025" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img19.png?raw=true&quot; width=&quot;500&quot;&gt;
-
-=|=
-
-La carga emocional se vuelve insostenible
-[[Continúa...|DejarTerapia]]</tw-passagedata><tw-passagedata pid="19" name="Contactar padre" tags="" position="1900,875" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img17.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Contacta a su padre con desesperación 
-
-[[Continúa...|Volver a casa de los padres]]</tw-passagedata><tw-passagedata pid="20" name="DejarTerapia" tags="" position="2050,1150" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img20.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-¿Volver a terapia?
-* [[Sí|RetomarTerapia]]
-* [[No|NoVolverTerapia]]</tw-passagedata><tw-passagedata pid="21" name="Final3" tags="" position="2325,825" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img22.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Aunque le cuesta muchísimo, eva logra encontrar un gran equilibrio en su vida, logrando mantener sus estudios y su trabajo, y claramente no dejando de lado lo importante que es lidiar con su condición.
-Sus amigos y su familia son partes claves de este gran logro. 
-
-&quot;Siento que pude avanzar sin huir de sí misma.&quot;
-
-  [[Tomar una decisión diferente|DejarTerapia]]</tw-passagedata><tw-passagedata pid="22" name="Final4" tags="" position="1500,1100" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img26.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva es suspendida indefinidamente, pierde la beca y abandona su carrera, se aísla completamente, tanto personal como emocionalmente, y aunque afortunadamente no muere, tarda mucho en volverse a poner en pie. 
-
-“Mi cuerpo me gritaba lo que mi mente no quería aceptar”.
-
-
-
- * [[Tomar una decisión diferente|Interrogatorio]]</tw-passagedata><tw-passagedata pid="23" name="Interrogatorio" tags="" position="1475,1300" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img25.png?raw=true&quot; width=&quot;500&quot;&gt;
-
-=|=
-El evento es conocido por el comité de bienestar y la interrogan sobre lo ocurrido.
-
-¿Decir la verdad?
-* [[Sí|2.C Final agridculce]]
-* [[No|Final4]]</tw-passagedata><tw-passagedata pid="24" name="Introducción" tags="" position="1525,100" size="100,100">Bienvenido a la historia de Eva.
-Tendrás que elegir qué decisiones tomará nuestra protagonista en su complicada vida para poder asegurar que tenga el mejor futuro posible.
-
-En caso de tener alguna discapacidad o dificultad visual, active el narrador de su dispositivo.
-
-En caso de tener alguna discapacidad motriz, puede usar los botones de indentación para navegar entre opciones y enter para seleccionar una. 
-
-¡Disfruta el juego!
-
-* [[Continuar|¿Quién es Eva?]]</tw-passagedata><tw-passagedata pid="25" name="NoVolverTerapia" tags="" position="1775,1175" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img23.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-
-No vuelve a terapia, pero busca grupos de apoyo en línea.
-
-[[Continuar|Ashwagandha]]</tw-passagedata><tw-passagedata pid="26" name="RetomarTerapia" tags="" position="2350,1150" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img21.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva retoma la terapia de forma particular.
-
-[[Continuar|Final3]]</tw-passagedata><tw-passagedata pid="27" name="Volver a casa de los padres" tags="" position="2075,875" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img18.png?raw=true&quot; width=&quot;500&quot;&gt;
-=|=
-Eva vuelve a casa de sus padres por una temporada
-
-[[Continúa...|CargaEmocional]]</tw-passagedata><tw-passagedata pid="28" name="¿Quién es Eva?" tags="" position="1525,225" size="100,100">=|=
-&lt;img src=&quot;https://github.com/jomolinav/Team-Elektras---UX/blob/main/Archivos%20Twine%20-%20%20HTML/img1.png?raw=true&quot; width=&quot;500&quot;&gt;
-
-
-=|=
-
-
-
-Eva tiene 23 años, estudia medicina, trabaja ocasionalmente en una librería y sufre de narcolepsia.
-
- [[Continuar...|1. El inicio]]
- 
- 
-|==|
-
-
- 
-
-(text-colour:white)[]</tw-passagedata></tw-storydata>
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
